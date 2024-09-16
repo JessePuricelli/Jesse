@@ -343,12 +343,12 @@ export const contact: ContactSection = {
       href: 'mailto:reachout@timbaker.me',
     },
     {
-      type: ContactType.,
-      text: '',
-      href: '',
+      type: ContactType.LinkedIn,
+      text: 'Jesse Puricelli',
+      href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/',
     },
     {
-      type: ContactType.,
+      type: ContactType.Instagram,
       text: '',
       href: '',
     },

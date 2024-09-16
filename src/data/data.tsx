@@ -9,10 +9,8 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+import HandShakeIcon from '../components/Icon/HandShakeIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -69,18 +67,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Jesse Puricelli.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Floridian based <strong className="text-stone-100">Electrical Engineering Student</strong>, currently studying
+        at <strong className="text-stone-100">Embry-Riddle Aeronautical University</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me resting with my <strong className="text-stone-100">pets</strong>,
+        hanging out with my <strong className="text-stone-100">friends</strong>, or exploring my natural{' '}
+        <strong className="text-stone-100">environment</strong>.
       </p>
     </>
   ),
@@ -108,12 +105,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Fort Lauderdale, FL', Icon: MapIcon},
+    {label: 'Age', text: '18', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American / Italian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Model Rocketry, Linux, Video Games, Computer Hardware', Icon: SparklesIcon},
+    {label: 'Study', text: 'Embry-Riddle Aeronautical University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Student', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,15 +123,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 1
       },
       {
         name: 'French',
-        level: 4,
+        level: 1
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 1
       },
     ],
   },
@@ -143,15 +140,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 1
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 1
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 1
       },
     ],
   },
@@ -160,15 +157,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 1
       },
       {
         name: 'Rust',
-        level: 5,
+        level: 1
       },
       {
         name: 'Golang',
-        level: 4,
+        level: 1
       },
     ],
   },
@@ -177,15 +174,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 1
       },
       {
         name: 'Flutter',
-        level: 4,
+        level: 1
       },
       {
         name: 'Swift',
-        level: 3,
+        level: 1
       },
     ],
   },
@@ -268,24 +265,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'Expected graduation June 2028',
+    location: 'Embry-Riddle',
+    title: 'Bachelor of Science in Electrical Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '',
+    location: '',
+    title: '',
+    content: <p>.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '',
+    location: '',
+    title: '',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -294,9 +291,9 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '',
+    location: '',
+    title: '',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -313,19 +310,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
   ],
 };
@@ -344,20 +341,15 @@ export const contact: ContactSection = {
       href: 'mailto:reachout@timbaker.me',
     },
     {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      type: ContactType.HandShake,
+      text: 'Jesse Puricelli',
+      href: 'https://app.joinhandshake.com/profiles/61800959/',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
-    },
+      type: ContactType.LinkedIn,
+      text: 'Jesse Puricelli',
+      href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/',
+      },
   ],
 };
 
@@ -365,9 +357,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/JessePuricelli'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/'},
+  {label: 'HandShake', Icon: HandShakeIcon, href: 'https://app.joinhandshake.com/profiles/61800959/'},
 ];

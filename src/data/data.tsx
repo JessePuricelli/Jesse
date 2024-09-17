@@ -109,7 +109,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Fort Lauderdale, FL', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'American / Italian', Icon: FlagIcon},
+    {label: 'Nationality', text: 'American / Italian / Hispanic / Irish', Icon: FlagIcon},
     {label: 'Interests', text: 'Model Rocketry, Linux, Video Games, Computer Hardware', Icon: SparklesIcon},
     {label: 'Study', text: 'Embry-Riddle Aeronautical University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Student', Icon: BuildingOffice2Icon},

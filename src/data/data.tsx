@@ -77,7 +77,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Embry-Riddle Aeronautical University</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me resting with my <strong className="text-stone-100">pets</strong>,
+        In my free time time, you can catch me bonding with my <strong className="text-stone-100">pets</strong>,
         hanging out with my <strong className="text-stone-100">friends</strong>, or exploring my natural{' '}
         <strong className="text-stone-100">environment</strong>.
       </p>

@@ -360,7 +360,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/JessePuricelli'},
-   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: ''},
+   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/27386620/jesse'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/'},
    {label: 'Instagram', Icon: InstagramIcon, href: ''},
    {label: 'Twitter', Icon: TwitterIcon, href: ''},

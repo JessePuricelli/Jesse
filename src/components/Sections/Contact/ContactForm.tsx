@@ -1,23 +1,8 @@
-import React, { FC, memo, useCallback, useMemo } from 'react';
+import React, { FC, memo } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
 
 const ContactForm: FC = memo(() => {
   const [state, handleSubmit] = useForm("mdknrdnl");
-
-  const defaultData = useMemo(
-    () => ({
-      name: '',
-      email: '',
-      message: '',
-    }),
-    []
-  );
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';

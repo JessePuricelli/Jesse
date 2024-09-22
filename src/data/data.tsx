@@ -125,15 +125,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
       },
       {
         name: 'French',
-        level: 4,
       },
       {
         name: 'Spanish',
-        level: 3,
       },
     ],
   },
@@ -142,15 +139,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
       },
       {
         name: 'Typescript',
-        level: 7,
       },
       {
         name: 'GraphQL',
-        level: 6,
       },
     ],
   },
@@ -159,15 +153,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
       },
       {
         name: 'Rust',
-        level: 5,
       },
       {
         name: 'Golang',
-        level: 4,
       },
     ],
   },
@@ -176,15 +167,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
       },
       {
         name: 'Flutter',
-        level: 4,
       },
       {
         name: 'Swift',
-        level: 3,
       },
     ],
   },

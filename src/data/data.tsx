@@ -119,26 +119,24 @@ export const aboutData: About = {
 /**
  * Skills section
  */
-// First, update the Skill type definition
-// This should be in your types file, probably src/data/dataDef.ts
-export interface Skill {
-  name: string;
-  level?: number; // Make level optional
-}
-
-// Then, update your skills data in src/data/data.tsx
+/**
+ * Skills section
+ */
 export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
     skills: [
       {
         name: 'English',
+        level: 100, // Set to maximum level
       },
       {
         name: 'French',
+        level: 100,
       },
       {
         name: 'Spanish',
+        level: 100,
       },
     ],
   },
@@ -147,12 +145,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
+        level: 100,
       },
       {
         name: 'Typescript',
+        level: 100,
       },
       {
         name: 'GraphQL',
+        level: 100,
       },
     ],
   },
@@ -161,12 +162,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
+        level: 100,
       },
       {
         name: 'Rust',
+        level: 100,
       },
       {
         name: 'Golang',
+        level: 100,
       },
     ],
   },
@@ -175,12 +179,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
+        level: 100,
       },
       {
         name: 'Flutter',
+        level: 100,
       },
       {
         name: 'Swift',
+        level: 100,
       },
     ],
   },

@@ -119,6 +119,14 @@ export const aboutData: About = {
 /**
  * Skills section
  */
+// First, update the Skill type definition
+// This should be in your types file, probably src/data/dataDef.ts
+export interface Skill {
+  name: string;
+  level?: number; // Make level optional
+}
+
+// Then, update your skills data in src/data/data.tsx
 export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',

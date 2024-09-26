@@ -351,7 +351,7 @@ export const contact: ContactSection = {
       href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/',
     },
     {
-      type: ContactType.Instagram,
+      type: ContactType.HandShake,
       text: '',
       href: '',
     },

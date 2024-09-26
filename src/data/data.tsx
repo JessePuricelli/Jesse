@@ -342,7 +342,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'coming soon',
+      text: 'JDPuricelli@outlook.com',
       href: '',
     },
     {
@@ -352,8 +352,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.HandShake,
-      text: '',
-      href: '',
+      text: 'Jesse Puricelli',
+      href: 'https://app.joinhandshake.com/profiles/61800959',
     },
   ],
 };

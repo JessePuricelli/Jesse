@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/components/Icon/GithubIcon',
+      href: '',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,

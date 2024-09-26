@@ -124,7 +124,7 @@ export const ContactType = {
   LinkedIn: 'LinkedIn',
   Facebook: 'Facebook',
 //  Twitter: 'Twitter',
-  Instagram: 'Instagram',
+  HandShake: 'HandShake',
 } as const;
 
 export type ContactType = (typeof ContactType)[keyof typeof ContactType];

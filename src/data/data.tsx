@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+import HandShakeIcon from '../components/Icon/HandShakeIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -365,7 +365,7 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/JessePuricelli'},
    {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/27386620/jesse'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/'},
-   {label: 'Instagram', Icon: InstagramIcon, href: ''},
+   {label: 'HandShake', Icon: HandShakeIcon, href: 'https://app.joinhandshake.com/profiles/61800959'},
   // {label: 'Twitter', Icon: TwitterIcon, href: ''},
  
 ];

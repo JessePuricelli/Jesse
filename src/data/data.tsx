@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -273,7 +273,7 @@ export const education: TimelineItem[] = [
     date: 'Expected graduation June 2028',
     location: 'Embry-Riddle',
     title: 'Bachelor of Science in Electrical Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p></p>,
   },
   {
     date: '',
@@ -366,6 +366,6 @@ export const socialLinks: Social[] = [
    {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/27386620/jesse'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jesse-puricelli-032902323/'},
    {label: 'Instagram', Icon: InstagramIcon, href: ''},
-   {label: 'Twitter', Icon: TwitterIcon, href: ''},
+  // {label: 'Twitter', Icon: TwitterIcon, href: ''},
  
 ];

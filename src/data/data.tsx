@@ -144,15 +144,15 @@ export const skills: SkillGroup[] = [
     name: 'Operating Systems',
     skills: [
       {
-        name: 'React',
+        name: '',
         level: 100,
       },
       {
-        name: 'Typescript',
+        name: '',
         level: 100,
       },
       {
-        name: 'GraphQL',
+        name: '',
         level: 100,
       },
     ],

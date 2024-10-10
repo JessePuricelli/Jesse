@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '',
+      href: '.src/images/resume.pdf" download>Download CV</a>',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,

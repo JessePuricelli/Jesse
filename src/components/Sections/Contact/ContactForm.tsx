@@ -3,7 +3,6 @@ import {useForm, ValidationError} from '@formspree/react';
 
 const ContactForm: FC = memo(() => {
   const [state, handleSubmit] = useForm("mdknrdnl");
-
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
@@ -55,4 +54,5 @@ const ContactForm: FC = memo(() => {
 });
 
 ContactForm.displayName = 'ContactForm';
+
 export default ContactForm;

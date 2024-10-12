@@ -1,5 +1,5 @@
-import {FC, memo} from 'react';
 import {useForm, ValidationError} from '@formspree/react';
+import {FC, memo} from 'react';
 
 const ContactForm: FC = memo(() => {
   const [state, handleSubmit] = useForm("mdknrdnl");

@@ -103,9 +103,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-    description: `Hi! I’m someone who’s passionate about technology, aerospace, and all things that push the boundaries of innovation. With a mix of American, Italian, Hispanic, and Irish heritage, I bring a diverse background to everything I do. Currently studying at Embry-Riddle Aeronautical University, I’m constantly exploring new ways to learn and grow in the world of aviation and tech.
-
-In my free time, you’ll find me building model rockets, experimenting with Linux, playing video games, or diving into the latest computer hardware developments.`,
+    description: `Hi! I’m passionate about technology, aerospace, and innovation. With a blend of American, Italian, Hispanic, and Irish heritage, I’m currently studying at Embry-Riddle Aeronautical University, focusing on aviation and tech.
+                  In my free time, I build model rockets, experiment with Linux, play video games, and explore computer hardware`,
   aboutItems: [
     {label: 'Location', text: 'Fort Lauderdale, FL', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},

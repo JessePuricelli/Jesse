@@ -103,9 +103,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-    description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+    description: `Hi! I’m someone who’s passionate about technology, aerospace, and all things that push the boundaries of innovation. With a mix of American, Italian, Hispanic, and Irish heritage, I bring a diverse background to everything I do. Currently studying at Embry-Riddle Aeronautical University, I’m constantly exploring new ways to learn and grow in the world of aviation and tech.
+
+In my free time, you’ll find me building model rockets, experimenting with Linux, playing video games, or diving into the latest computer hardware developments.`,
   aboutItems: [
     {label: 'Location', text: 'Fort Lauderdale, FL', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},

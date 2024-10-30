@@ -160,7 +160,7 @@ export const skills: SkillGroup[] = [
     name: 'Manufacturing',
     skills: [
       {
-        name: '',
+        name: 'Altium PCB Designer',
         level: 100,
       },
       {
@@ -177,7 +177,7 @@ export const skills: SkillGroup[] = [
     name: 'Software',
     skills: [
       {
-        name: '',
+        name: 'Office 365',
         level: 100,
       },
       {
